@@ -32,9 +32,9 @@ body{
 .container_learning{
     display: flex;
     padding: 60px 130px;
-    align-items: left;
-    text-align: left;
-    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
@@ -80,13 +80,16 @@ body{
     font-size: 43px;
 }
 
-.grid_container{
+.courses_container{
     display: flex;
     margin: 30px 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     flex-wrap: wrap;
 }
 
-.grid_container_content{
+.courses_container_content{
     display: flex;
     max-height: 200px;
     max-width: 590px;
@@ -98,14 +101,14 @@ body{
     margin: 5px;
 }
 
-.grid_container_content_right{
+.courses_container_content_right{
     padding:20px 12px;
     align-items: left;
     text-align: left;
     color: rgb(57, 59, 61);
 }
 
-.grid_container_content_right h3{
+.courses_container_content_right h3{
     color: rgb(57, 118, 239);
     font-size: 16px;
     font-weight: bold;
