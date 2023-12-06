@@ -1,0 +1,122 @@
+body{
+    padding: 20px 40px 20px 40px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    font-size: 22px;
+}
+
+
+.navbar{
+    padding: 10px;
+    justify-content: space-between;
+    color:rgb(83, 79, 74);
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.navigation{
+    margin-top: 35px;
+}
+
+.navigation a{
+    margin: 7px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color:rgb(83, 79, 74);
+}
+
+.container_learning{
+    display: flex;
+    padding: 60px 130px;
+    align-items: left;
+    text-align: left;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.container_learning_left h1{
+    font-size: 36px;
+    font-weight: 900;
+    align-items: left;
+    text-align: left;
+}
+
+.container_learning_left p{
+    color:rgb(83, 79, 74);
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.learning_btn{
+    padding: 10px 30px;
+    background-color: rgb(18, 89, 204);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+.container_learning_right{
+    align-items: center;
+}
+
+.container_learning_right img{
+    height: 300px;
+    width: 300px;
+}
+
+.popular_courses{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.popular_courses  h1{
+    font-size: 43px;
+}
+
+.grid_container{
+    display: flex;
+    margin: 30px 25px;
+    flex-wrap: wrap;
+}
+
+.grid_container_content{
+    display: flex;
+    max-height: 200px;
+    max-width: 590px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(231, 226, 226);
+    border-radius: 8px;
+    padding: 0;
+    margin: 5px;
+}
+
+.grid_container_content_right{
+    padding:20px 12px;
+    align-items: left;
+    text-align: left;
+    color: rgb(57, 59, 61);
+}
+
+.grid_container_content_right h3{
+    color: rgb(57, 118, 239);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.course_btn{
+    padding: 15px 40px;
+    background-color: rgb(18, 89, 204);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
