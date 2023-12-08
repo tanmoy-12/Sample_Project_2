@@ -1,5 +1,6 @@
 
-
+@media screen and (min-width:1024px) {
+    
     body{
         /* padding: 20px 40px 20px 40px; */
         margin: 0;
@@ -311,6 +312,7 @@
 
 .socials img{
     margin:  10px 15px;
+}
 }
 
 
