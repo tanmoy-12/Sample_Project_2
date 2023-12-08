@@ -48,7 +48,6 @@
 .container_learning_left h1{
     font-size: 36px;
     font-weight: 900;
-    align-items: left;
     text-align: left;
 }
 
@@ -312,4 +311,90 @@
 
 .socials img{
     margin:  10px 15px;
+}
+
+
+@media screen and (min-width:290px) and (max-width:575px) {
+    .navbar{
+        display: list-item;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .courses_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .courses_container_content{
+        margin:10px 50px;
+    }
+
+    .container_learning{
+        display: list-item;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container_learning_left{
+        text-align: center;
+    }
+
+    .container_learning_left h1{
+        text-align: center;
+    }
+
+    .explore{
+        display: none;
+    }
+
+    .register{
+        display: list-item;
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+    }
+
+    .register-button{
+        margin: 30px;
+    }
+
+    .students{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .students-text-section{
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .students-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .student{
+        width:250px;
+    }
+
+    .student-feedback-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .companies-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .companies-container img{
+        margin: 15px;
+    }
 }
