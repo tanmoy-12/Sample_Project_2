@@ -8,7 +8,7 @@
     }
 
     .wrapper-main{
-        width: 1280px;
+        width: 1200px;
         margin : 0 auto;
     }
 
@@ -89,7 +89,7 @@
 
 .courses_container{
     display: flex;
-    margin: 30px 25px;
+    margin: 30px 15px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -186,7 +186,7 @@
 
 .register{
     background: linear-gradient(to bottom,#609bec, #7ea6e7,  #99c3f3);
-    width: 90%;
+    width: 96%;
     display: flex;
     padding: 30px ;
     justify-content: space-between;
@@ -301,6 +301,7 @@
     text-align: center;
     align-items: center;
     margin: 0 auto;
+    width: 1170px;
 }
 
 .socials{
