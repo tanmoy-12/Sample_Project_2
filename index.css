@@ -510,10 +510,9 @@
     
     .courses_container_content_right{
         padding:5px 12px;
-        align-items: left;
         text-align: left;
         color: rgb(57, 59, 61);
-        width: 15opx;
+        width: 180px;
     }
     
     .courses_container_content_right h3{
