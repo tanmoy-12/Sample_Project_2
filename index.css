@@ -648,4 +648,13 @@
         margin:  10px 15px;
     }
     
+    .courses_container_content_left{
+        width:"200px";
+        height:"200px";
+    }
+    
+    .courses_container_content_left img{
+        width:auto;
+        height:auto;
+    }
 }
