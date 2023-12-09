@@ -536,7 +536,7 @@
         border-radius: 8px;
     }
     .courses_container_content_left{
-        max-width: "100px";
+        max-width: min-content;
         height:"100px";
     }
     .courses_container_content_left img{
