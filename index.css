@@ -509,7 +509,7 @@
     }
     
     .courses_container_content_right{
-        padding:5px 12px;
+        padding:5px 5px;
         text-align: left;
         color: rgb(57, 59, 61);
         width: 180px;
@@ -535,12 +535,117 @@
         border: none;
         border-radius: 8px;
     }
-    .courses_container_content_left{
-        max-width: min-content;
-        height:"100px";
-    }
+
     .courses_container_content_left img{
         width: auto;
         height: auto;
     }
+
+    .students{
+        margin: 30px auto;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .students-container{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .students-text-section{
+        text-align: center;
+        color: #565759;
+    }
+    
+    .student{
+        border-radius: 5px;
+        border: 0.3px solid #dcddde;
+        margin: 20px 30px 50px;
+    }
+    
+    .student-info{
+        color: #565759;
+        padding: 0 10px;
+    }
+    
+    .feedback{
+        justify-content: center;
+        text-align: center;
+        margin: 80px auto;
+    }
+    
+    .student-feedback-container{
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .student-feedback{
+        align-items: left;
+        text-align: left;
+        padding: 20px;
+        width: 250px;
+        border: 0.15px solid #dcdfe2;
+        margin: 20px;
+    }
+    
+    .student-details{
+        display: flex;
+        align-items: center;
+    }
+    
+    .name{
+        margin: 10px;
+        gap: 0;
+    }
+    
+    .name h4{
+        margin: 0;
+        padding: 0;
+    }
+    .name h6{
+        margin: 0;
+        padding: 0;
+        color: #828385;
+    }
+    
+    .companies{
+        justify-content: center;
+        text-align: center;
+        margin: 80px auto;
+    }
+    
+    .companies-container{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .companies-container img{
+        margin: 20px auto;
+    }
+    
+    .footer{
+        background-color: #000000;
+        color: #ffffff;
+        justify-content: center;
+        padding: 30px 0;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .socials{
+        display: flex;
+       justify-content: center;
+       text-align: center;
+    }
+    
+    .socials img{
+        margin:  10px 15px;
+    }
+    
 }
