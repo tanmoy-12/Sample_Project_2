@@ -1,4 +1,8 @@
 
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 @media screen and (min-width:1024px) {
     
     body{
@@ -316,12 +320,56 @@
 }
 
 
-@media screen and (min-width:290px) and (max-width:575px) {
+@media screen and (max-width:576px) {
     .navbar{
         display: list-item;
         justify-content: center;
         text-align: center;
     }
+
+    .navigation{
+        margin-top: 35px;
+    }
+    
+    .navigation a{
+        margin: 7px;
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: none;
+        color:rgb(83, 79, 74);
+    }
+
+        
+.container_learning_left h1{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.container_learning_left p{
+    color:rgb(83, 79, 74);
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.learning_btn{
+    padding: 10px 30px;
+    background-color: rgb(18, 89, 204);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+.container_learning_right{
+    align-items: center;
+}
+
+.container_learning_right img{
+    height: 300px;
+    width: 300px;
+}
 
     .courses_container{
         display: flex;
@@ -350,15 +398,26 @@
         display: none;
     }
 
-    .register{
-        display: list-item;
-        justify-content: center;
-        text-align: center;
-        width: 50%;
-    }
 
+    .register{
+        background: linear-gradient(to bottom,#609bec, #7ea6e7,  #99c3f3);
+        width: 90%;
+        text-align: center;
+        padding: 20px ;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        color:#ffff;
+    }
+    
     .register-button{
-        margin: 30px;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        font-size: 22px;
+        color: #1752a4;
+        background-color: #ffff;
+        font-weight: bold;
     }
 
     .students{
@@ -398,5 +457,65 @@
 
     .companies-container img{
         margin: 15px;
+    }
+
+
+    .popular_courses{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 120px;
+    }
+    
+    .popular_courses  h1{
+        font-size: 22px;
+    }
+    
+    .courses_container{
+        display: flex;
+        margin: 30px 15px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    .courses_container_content{
+        display: flex;
+        max-height: 200px;
+        max-width: 590px;
+        border-style: solid;
+        border-width: 0.1px;
+        border-color: rgb(231, 226, 226);
+        border-radius: 8px;
+        padding: 0;
+        margin: 5px;
+    }
+    
+    .courses_container_content_right{
+        padding:5px 12px;
+        align-items: left;
+        text-align: left;
+        color: rgb(57, 59, 61);
+    }
+    
+    .courses_container_content_right h3{
+        color: rgb(57, 118, 239);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .courses_container_content_right h2{
+        margin: 0 auto;
+        font-size: medium;
+    }
+    
+    .course_btn{
+        padding: 15px 40px;
+        background-color: rgb(18, 89, 204);
+        color: white;
+        font-size: medium;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
     }
 }
