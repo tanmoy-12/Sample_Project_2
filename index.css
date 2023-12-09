@@ -317,7 +317,24 @@
 .socials img{
     margin:  10px 15px;
 }
+
+.courses_container_content_left{
+    width:"200px";
+    height:"200px";
 }
+
+.courses_container_content_left img{
+    width:auto;
+    height:auto;
+}
+}
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:576px) {
@@ -482,7 +499,7 @@
     .courses_container_content{
         display: flex;
         max-height: 200px;
-        max-width: 590px;
+        max-width: 390px;
         border-style: solid;
         border-width: 0.1px;
         border-color: rgb(231, 226, 226);
@@ -496,6 +513,7 @@
         align-items: left;
         text-align: left;
         color: rgb(57, 59, 61);
+        width: 15opx;
     }
     
     .courses_container_content_right h3{
@@ -517,5 +535,13 @@
         font-weight: bold;
         border: none;
         border-radius: 8px;
+    }
+    .courses_container_content_left{
+        max-width: "100px";
+        height:"100px";
+    }
+    .courses_container_content_left img{
+        width: auto;
+        height: auto;
     }
 }
