@@ -648,13 +648,315 @@
         margin:  10px 15px;
     }
     
-    .courses_container_content_left{
-        width:"200px";
-        height:"200px";
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:991px) {
+    .logo{
+        font-size: x-large;
+    }
+
+    .navbar{
+        display: list-item;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .navigation{
+        margin-top: 35px;
     }
     
-    .courses_container_content_left img{
-        width:auto;
-        height:auto;
+    .navigation a{
+        margin: 7px;
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: none;
+        color:rgb(83, 79, 74);
     }
+
+        
+.container_learning_left h1{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.container_learning_left p{
+    color:rgb(83, 79, 74);
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.learning_btn{
+    padding: 10px 30px;
+    background-color: rgb(18, 89, 204);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+.container_learning_right{
+    align-items: center;
+}
+
+.container_learning_right img{
+    height: 300px;
+    width: 300px;
+}
+
+    .courses_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .courses_container_content{
+        margin:10px 50px;
+    }
+
+    .container_learning{
+        display: list-item;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container_learning_left{
+        text-align: center;
+    }
+
+    .container_learning_left h1{
+        text-align: center;
+    }
+
+    .explore{
+        display: none;
+    }
+
+
+    .register{
+        background: linear-gradient(to bottom,#609bec, #7ea6e7,  #99c3f3);
+        width: 90%;
+        text-align: center;
+        padding: 20px ;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        color:#ffff;
+    }
+    
+    .register-button{
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        font-size: 22px;
+        color: #1752a4;
+        background-color: #ffff;
+        font-weight: bold;
+    }
+
+    .students{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .students-text-section{
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .student{
+        width:250px;
+    }
+
+    .student-feedback-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .companies-container img{
+        margin: 15px;
+    }
+
+
+    .popular_courses{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 120px;
+    }
+    
+    .popular_courses  h1{
+        font-size: 22px;
+    }
+    
+    .courses_container{
+        display: flex;
+        margin: 30px 15px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    .courses_container_content{
+        display: flex;
+        max-height: 200px;
+        max-width: 390px;
+        border-style: solid;
+        border-width: 0.1px;
+        border-color: rgb(231, 226, 226);
+        border-radius: 8px;
+        padding: 0;
+        margin: 5px;
+    }
+    
+    .courses_container_content_right{
+        padding:5px 5px;
+        text-align: left;
+        color: rgb(57, 59, 61);
+        width: 180px;
+    }
+    
+    .courses_container_content_right h3{
+        color: rgb(57, 118, 239);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .courses_container_content_right h2{
+        margin: 0 auto;
+        font-size: medium;
+    }
+    
+    .course_btn{
+        padding: 15px 40px;
+        background-color: rgb(18, 89, 204);
+        color: white;
+        font-size: medium;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .courses_container_content_left img{
+        width: auto;
+        height: auto;
+    }
+
+    .students{
+        margin: 30px auto;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .students-container{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .students-text-section{
+        text-align: center;
+        color: #565759;
+    }
+    
+    .student{
+        border-radius: 5px;
+        border: 0.3px solid #dcddde;
+        margin: 20px 5px 20px 5px;
+    }
+    
+    .student-info{
+        color: #565759;
+        padding: 0 10px;
+    }
+    
+    .feedback{
+        justify-content: center;
+        text-align: center;
+        margin: 80px auto;
+    }
+    
+    .student-feedback{
+        align-items: left;
+        text-align: left;
+        padding: 5px 10px;
+        width: 300px;
+        border: 0.15px solid #dcdfe2;
+        margin: 8px;
+    }
+    
+    .student-details{
+        display: flex;
+        align-items: center;
+    }
+    
+    .name{
+        margin: 10px;
+        gap: 0;
+    }
+    
+    .name h4{
+        margin: 0;
+        padding: 0;
+    }
+    .name h6{
+        margin: 0;
+        padding: 0;
+        color: #828385;
+    }
+    
+    .companies{
+        justify-content: center;
+        text-align: center;
+        margin: 80px auto;
+    }
+    
+    .companies-container{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .companies-container img{
+        margin: 20px auto;
+        width: 10%;
+    }
+    
+    .footer{
+        background-color: #000000;
+        color: #ffffff;
+        justify-content: center;
+        padding: 30px 0;
+        text-align: center;
+        letter-spacing: 0.1em;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .socials{
+        display: flex;
+       justify-content: center;
+       text-align: center;
+    }
+    
+    .socials img{
+        margin:  10px 15px;
+    }
+    
 }
